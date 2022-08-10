@@ -1,32 +1,38 @@
 Hier steht die Anleitung für das Software Projekt
 
-git Einrichten:
+Annahme Git ist installiert.
+
+1. Git Einrichten:
+Git bash öffnen unf folgendes nacheinander tippen
 git config --global user.name "Ihr Name"
 git config --global user.email "Ihre Email"
 git config --list
 
-GitHubAccount einrichten unter github.com
-Name,email adreesse und passwort angeben
+2. GitHubAccount erstellen unter github.com
+Name,email adreesse (hochschul email adresse) und passwort angeben
 Den konstenlosen Plan wählen
-Email Adresse in der erhaltenen Email bestätigen
+Email Adresse in der erhaltenen Email in ihrem Email Postfach bestätigen.
 
-Github Classroom Assighments annehmen und downloaden
-Email mit Assignments öffnenen und Link anklicken
+3. Class Room Assighments annehmen und downloaden
+Sie sollten eine Email mit Assignments bekommen haben, diese bitte öffnenen und Link anklicken
 Autorsierung durchführen
-Auf Ihr Email Adresse auf der classroom website und assigment akzeptieren.
-Reporitsitory wird angelegt. Auf Link klicken, dann kommen Sie in das Repository
+Auf auf der classroom website sollten Sie auf Ihre Email Adresse klicken und assigment akzeptieren.
+Ein Reporitsitory wird angelegt. Auf Link klicken, dann kommen Sie in das Repository. Dort finden Sie 2 Dateien. 
+Die sollen in Schritt 4 auf Ihren Rechner geladen werden.
 
-Ordner auf dem PC anlegen z.B. SofwareProjekt, rechtsklicken und GitBashHere klicken
+4. Ordner auf dem PC anlegen z.B. SofwareProjekt, rechtsklicken und auf Git Bash Here klicken und in Git Bash folgendes nacheinander tippen.Für url im 2. Befehl sollten sie die url des Assigments auf der Github Classroom Seite nutzen.
 git init
 git clone url
-Im angelegten Ordner liegen die Dateien
-Bearbeiten der Datei und speichern
-Auf Ordner und wieder rechtsklicken und Git Bash Here
+Gehen Sie zu Ihrem angelegten Ordner, dort sollten nun die 2 Dateien liegen.
+
+5. Öffnen und bearbeiten Sie die Datei TestAufgabe.txt und speichern sie die Änderungen.
+Bitte jetzt wieder auf den Ordner rechtsklicken und Git Bash Here wählen, dort folgende Befehle nacheinander durchführen:
 git status
 git add .
-git commit -m "Kommentar"
+git commit -m "Ihr Kommentar"
 git push
 Login Fenster taucht auf - Einloggen in GitHub
+
 
 
 
