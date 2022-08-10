@@ -1,1 +1,33 @@
 Hier steht die Anleitung für das Software Projekt
+
+git Einrichten:
+git config --global user.name "Ihr Name"
+git config --global user.email "Ihre Email"
+git config --list
+
+GitHubAccount einrichten unter github.com
+Name,email adreesse und passwort angeben
+Den konstenlosen Plan wählen
+Email Adresse in der erhaltenen Email bestätigen
+
+Github Classroom Assighments annehmen und downloaden
+Email mit Assignments öffnenen und Link anklicken
+Autorsierung durchführen
+Auf Ihr Email Adresse auf der classroom website und assigment akzeptieren.
+Reporitsitory wird angelegt. Auf Link klicken, dann kommen Sie in das Repository
+
+Ordner auf dem PC anlegen z.B. SofwareProjekt, rechtsklicken und GitBashHere klicken
+git init
+git clone url
+Im angelegten Ordner liegen die Dateien
+Bearbeiten der Datei und speichern
+Auf Ordner und wieder rechtsklicken und Git Bash Here
+git status
+git add .
+git commit -m "Kommentar"
+git push
+Login Fenster taucht auf - Einloggen in GitHub
+
+
+
+
